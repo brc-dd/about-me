@@ -1,8 +1,52 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.fa-2x {
+	padding: 0 0.2rem;
+	text-decoration: none !important;
 }
-
-a {
-  color: #00B7FF;
+@media screen and (max-width: 576px) {
+	.image-container {
+		text-align: center !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		float: none !important;
+		display: block;
+	}
+	.text-holder {
+		text-align: center !important;
+	}
+}
+body {
+	padding-top: 55.6px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	opacity: 0.5;
+	transition: opacity 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		transition: none;
+	}
+}
+.carousel-control-prev-icon:hover, .carousel-control-prev-icon:focus, .carousel-control-next-icon:hover, .carousel-control-next-icon:focus {
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+	opacity: 0.9;
+}
+.noscroll {
+	overflow: hidden;
+}
+.overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	overflow-y: scroll;
 }

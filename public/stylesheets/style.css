@@ -15,12 +15,6 @@
 	.text-holder {
 		text-align: center !important;
 	}
-	.spacing-t {
-		padding-top: 1rem;
-	}
-	.spacing-b{
-		margin-bottom: 1rem;
-	}
 }
 body {
 	padding-top: 55.6px;

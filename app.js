@@ -21,6 +21,7 @@ app.get('/home', (req, res) => res.sendFile(path.join(__dirname, 'public/index.h
 app.get('/education', (req, res) => res.sendFile(path.join(__dirname, 'public/education.html')))
 app.get('/experience', (req, res) => res.sendFile(path.join(__dirname, 'public/experience.html')))
 app.get('/contact', (req, res) => res.sendFile(path.join(__dirname, 'public/contact.html')))
+app.get('/develop', (req, res) => res.sendFile(path.join(__dirname, 'public/develop.html')))
 app.post('/save', (req, res) => {
   console.log("someone is trying to send information")
   console.log(req.body);
